@@ -1,0 +1,19 @@
+// SPDX-License-Identifier: BSD-3-Clause
+/*
+ * Copyright (c) 2024 Thundercomm, Inc. All rights reserved.
+ */
+
+/dts-v1/;
+/plugin/;
+
+#include "turbox-c6490p-devkit-graphic.dtsi"
+#include "turbox-c6490p-devkit-display.dtsi"
+#include "turbox-c6490p-devkit-camera.dtsi"
+#include "turbox-c6490p-devkit-bt.dtsi"
+#include "turbox-c6490p-devkit-wlan.dtsi"
+
+/ {
+	model = "Thundercomm, Inc. Turbox C6490P devkit";
+	compatible = "qcom,qcm6490-idp", "qcom,qcm6490";
+};
+
