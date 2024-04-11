@@ -137,4 +137,10 @@
 			};
 		};
 	};
+
+	qcom,dp_display@ae90000 {
+		usb-phy = <&usb_1_qmpphy>;
+		usb-controller = <&usb_1>;
+		qcom,dp-aux-switch = <&redriver>;
+	};
 };
