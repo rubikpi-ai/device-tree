@@ -52,6 +52,13 @@
 				};
 			};
 		};
+
+		i2c@a94000 {
+			status = "disabled";
+			novatek@62 {
+				status = "disabled";
+			};
+		};
 	};
 
 	qcom,mdss_mdp0@ae00000 {
@@ -141,6 +148,8 @@
 	qcom,dp_display@ae90000 {
 		usb-phy = <&usb_1_qmpphy>;
 		usb-controller = <&usb_1>;
-		qcom,dp-aux-switch = <&redriver>;
+		qcom,dp-gpio-aux-switch;
+		qcom,aux-en-gpio = <&tlmm 53 0>;
+		qcom,aux-sel-gpio = <&tlmm 52 0>;
 	};
 };
