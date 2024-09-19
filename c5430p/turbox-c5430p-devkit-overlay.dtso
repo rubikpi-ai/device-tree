@@ -8,6 +8,7 @@
 
 #include "turbox-c5430p-devkit-graphic.dtsi"
 #include "turbox-c5430p-devkit-display.dtsi"
+#include "turbox-c5430p-devkit-camera.dtsi"
 #include "turbox-c5430p-devkit-bt.dtsi"
 #include "turbox-c5430p-devkit-wlan.dtsi"
 
