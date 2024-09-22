@@ -93,7 +93,7 @@
 			qcom,mdss-dsi-mdp-trigger = "none";
 			qcom,panel-supply-entries = <&dsi_panel_pwr_supply_no_labibb>;
 			qcom,mdss-dsi-bl-pmic-control-type = "bl_ctrl_external";
-			qcom,platform-reset-gpio = <&tlmm 44 0>;
+			qcom,platform-reset-gpio = <&tlmm 62 0>;
 			qcom,mdss-dsi-t-clk-post = <0x0D>;
 			qcom,mdss-dsi-t-clk-pre = <0x1A>;
 			qcom,mdss-dsi-reset-sequence = <0 20>, <1 19>, <1 1>;
@@ -152,7 +152,7 @@
 			qcom,mdss-dsi-mdp-trigger = "none";
 			qcom,panel-supply-entries = <&dsi_panel_pwr_supply_no_labibb>;
 			qcom,mdss-dsi-bl-pmic-control-type = "bl_ctrl_external";
-			qcom,platform-reset-gpio = <&tlmm 44 0>;
+			qcom,platform-reset-gpio = <&tlmm 62 0>;
 			qcom,mdss-dsi-t-clk-post = <0x14>;
 			qcom,mdss-dsi-t-clk-pre = <0x2f>;
 			qcom,mdss-dsi-reset-sequence = <0 20>, <1 19>, <1 1>;
