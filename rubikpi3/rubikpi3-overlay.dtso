@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: BSD-3-Clause
+/*
+ * Copyright (c) 2024 Thundercomm, Inc. All rights reserved.
+ */
+
+/dts-v1/;
+/plugin/;
+
+#include "rubikpi3-graphic.dtsi"
+#include "rubikpi3-display.dtsi"
+#include "rubikpi3-camera.dtsi"
+#include "rubikpi3-bt.dtsi"
+#include "rubikpi3-wlan.dtsi"
+
