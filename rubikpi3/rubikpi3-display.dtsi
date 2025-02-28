@@ -41,6 +41,7 @@
 				enable-gpios = <&tlmm 40 0>;
 				ocb-gpios = <&tlmm 41 0>;
 				vcc-supply = <&lt9611_3p3_vreg>;
+				config-mode = "edidAdaptiveResolution";
 
 				ports {
 					#address-cells = <1>;
